@@ -1,0 +1,62 @@
+#Menu {
+     font-size: x-large;
+     color: mediumblue;
+     display: flex;
+     flex-flow: row;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     justify-content: space-evenly;
+     background-color: lawngreen;
+}
+#Menu :hover {
+    color: orangered;
+}
+.menus {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: aquamarine;
+    font-size: x-large;
+    overflow: hidden;
+}
+.container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 5.2em;
+    background-image: url("https://www.haverhillartscentre.co.uk/wp-content/uploads/2018/10/CAFE-1-HAC.jpg");
+    font-size: xx-large;
+}
+footer {
+    border-radius: 0.7em;
+    border-style: groove;
+    border-color: darkorange;
+    height: 150px;
+    background-color: darkgray;
+    float: inline-start;
+}
+#footer :hover {
+    color: lime;
+}
+h1 {
+    font-size: xx-large;
+    font-style: italic;
+    color: green;
+}
+p {
+    font-size: xx-large;
+    font-style: italic;
+    color: white;
+}
+li {
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 600px;
+    color: lawngreen;
+    list-style-type: none;
+}
+h2{
+    color: black;
+    font-size: x-large;
+    font-weight: 600px;
+    font-family: 'Arial Narrow Bold';
+}
